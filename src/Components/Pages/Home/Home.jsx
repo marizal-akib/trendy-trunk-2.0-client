@@ -5,6 +5,8 @@ import Footer from "../../Elements/Footer";
 import Banner from "./Banner";
 import SAbout from "./SAbout";
 import TopRated from "./TopRated";
+import Section1 from "./Section1";
+import NewsLetter from "./NewsLtter/NewsLetter";
 
 
 
@@ -35,8 +37,10 @@ const Home = () => {
           </div>
         ))}
       </Marquee>
+      <Section1></Section1>
       <TopRated></TopRated>
       <SAbout></SAbout>
+      <NewsLetter></NewsLetter>
       <Footer></Footer>
     </div>
   );
