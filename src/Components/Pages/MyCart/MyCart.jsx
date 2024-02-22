@@ -56,8 +56,8 @@ const MyCart = () => {
           email,
           cart
         };
-        axios.put("http://localhost:5000/user",newCart)
-        // fetch(`http://localhost:5000/user/cart`, {
+        axios.put("https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /user",newCart)
+        // fetch(`https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /user/cart`, {
           //   method: "PUT",
           //   headers: {
             //     "content-type": "application/json",

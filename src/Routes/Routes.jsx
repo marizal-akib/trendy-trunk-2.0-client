@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("http://localhost:5000/products"),
+        loader: () => fetch("https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /products"),
       },
       {
         path: "/add-product",
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
             <MyCart></MyCart>
           </PrivateRout>
         ),
-        loader: () => fetch("http://localhost:5000/user"),
+        loader: () => fetch("https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /user"),
       },
       {
         path: "/update/:id",
@@ -63,12 +63,12 @@ const router = createBrowserRouter([
           </PrivateRout>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/products/${params.id}`),
+          fetch(`https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /products/${params.id}`),
       },
       {
         path: "/brand/:id",
         element: <BrandProduct></BrandProduct>,
-        loader: ({ params }) => fetch("http://localhost:5000/products"),
+        loader: ({ params }) => fetch("https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /products"),
       },
       {
         path: "/users",
@@ -83,7 +83,7 @@ const router = createBrowserRouter([
             <ProductDetails></ProductDetails>
           </PrivateRout>
         ),
-        loader: ({ params }) => fetch("http://localhost:5000/products"),
+        loader: ({ params }) => fetch("https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /products"),
       },
     ],
   },

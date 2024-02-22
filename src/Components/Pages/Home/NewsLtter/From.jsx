@@ -13,7 +13,7 @@ const From = () => {
           email : email,
          
         }
-        const res = await ('http://localhost:5000/sub', subscriber)
+        const res = await ('https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /sub', subscriber)
         console.log(res.data);
         if (res.data.insertedId) {
           // form.reset();

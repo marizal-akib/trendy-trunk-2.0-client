@@ -9,7 +9,7 @@ const TopRated = () => {
   const [allProducts, setAllProducts] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /products")
       .then((res) => res.json())
       .then((data) => setAllProducts(data));
   }, []);

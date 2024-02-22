@@ -25,7 +25,7 @@ const AddProduct = () => {
 
     };
 
-    fetch('http://localhost:5000/products',{
+    fetch('https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /products',{
       method:'POST',
       headers:{
         'content-type': 'application/json'

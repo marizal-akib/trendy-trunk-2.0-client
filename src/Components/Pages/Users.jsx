@@ -9,7 +9,7 @@ const Users = () => {
     const {isPending, data :users} = useQuery({
         queryKey:['users'],
         queryFn: async () =>{
-            const res = await fetch('http://localhost:5000/user');
+            const res = await fetch('https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /user');
             return res.json();
         }
     })
@@ -18,7 +18,7 @@ const Users = () => {
 
 
     // useEffect(() =>{
-    //     fetch('http://localhost:5000/user')
+    //     fetch('https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /user')
     //     .then(res => res.json())
     //     .then(data => {
     //         console.log(data);
@@ -31,7 +31,7 @@ const Users = () => {
 
 
     // const handleDelete = id => {
-    //     fetch(` http://localhost:5000/user/${id}`,{
+    //     fetch(` https://trendy-trunk-server-kl0lqxjhy-mariz-al-akibs-projects.vercel.app /user/${id}`,{
     //         method: 'DELETE'
     //     })
     //     .then(res=>res.json())
