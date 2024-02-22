@@ -7,6 +7,7 @@ import SAbout from "./SAbout";
 import TopRated from "./TopRated";
 import Section1 from "./Section1";
 import NewsLetter from "./NewsLtter/NewsLetter";
+import Featured from "./Featured/Featured";
 
 
 
@@ -40,6 +41,7 @@ const Home = () => {
       <Section1></Section1>
       <TopRated></TopRated>
       <SAbout></SAbout>
+      <Featured></Featured>
       <NewsLetter></NewsLetter>
       <Footer></Footer>
     </div>
