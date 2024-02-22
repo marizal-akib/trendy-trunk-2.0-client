@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+      "brandName": "Nike",
+      "brandImageURL": "https://i.ibb.co/LgXgSnn/png-transparent-nike-swoosh-logo-desktop-just-do-it-nike-angle-text-monochrome-removebg-preview.png",
+      "bannerURLs": [
+        "https://i.ibb.co/xF3RJvK/b5e33b8f97941536b80d4fafe21c1044.jpg",
+        "https://i.ibb.co/Kmm1xRD/458344b3aaab87a6b3dffbcfb61f6f75.png",
+        "https://i.ibb.co/1LMbMs3/1547c457094675-59c8f326d35ec.jpg"
+      ]
+    },
+    {
+        "id": 2,
+      "brandName": "Adidas",
+      "brandImageURL": "https://i.ibb.co/Z11ZLc8/png-transparent-adidas-adidas-angle-text-logo-removebg-preview.png",
+      "bannerURLs": [
+        "https://i.ibb.co/xF3RJvK/b5e33b8f97941536b80d4fafe21c1044.jpg",
+        "https://i.ibb.co/Kmm1xRD/458344b3aaab87a6b3dffbcfb61f6f75.png",
+        "https://i.ibb.co/1LMbMs3/1547c457094675-59c8f326d35ec.jpg"
+      ]
+    },
+    {
+        "id": 3,
+      "brandName": "Gucci",
+      "brandImageURL": "https://i.ibb.co/rbWMWg9/png-transparent-gucci-logo-gucci-chanel-fashion-logo-louis-vuitton-gucci-shoe-line-italian-fashion-r.png",
+      "bannerURLs": [
+        "https://i.ibb.co/xF3RJvK/b5e33b8f97941536b80d4fafe21c1044.jpg",
+        "https://i.ibb.co/Kmm1xRD/458344b3aaab87a6b3dffbcfb61f6f75.png",
+        "https://i.ibb.co/1LMbMs3/1547c457094675-59c8f326d35ec.jpg"
+      ]
+    },
+    {
+        "id": 4,
+      "brandName": "Zara",
+      "brandImageURL": "https://i.ibb.co/QkMzFnk/png-transparent-zara-hd-logo-removebg-preview.png",
+      "bannerURLs": [
+        "https://i.ibb.co/xF3RJvK/b5e33b8f97941536b80d4fafe21c1044.jpg",
+        "https://i.ibb.co/Kmm1xRD/458344b3aaab87a6b3dffbcfb61f6f75.png",
+        "https://i.ibb.co/1LMbMs3/1547c457094675-59c8f326d35ec.jpg"
+      ]
+    },
+    {
+        "id": 5,
+      "brandName": "H&M",
+      "brandImageURL": "https://i.ibb.co/Q6qHbWf/png-transparent-h-m-hd-logo-removebg-preview.png",
+      "bannerURLs": [
+        "https://i.ibb.co/xF3RJvK/b5e33b8f97941536b80d4fafe21c1044.jpg",
+        "https://i.ibb.co/Kmm1xRD/458344b3aaab87a6b3dffbcfb61f6f75.png",
+        "https://i.ibb.co/1LMbMs3/1547c457094675-59c8f326d35ec.jpg"
+      ]
+    },
+    {
+        "id": 6,
+      "brandName": "Levi's",
+      "brandImageURL": "https://i.ibb.co/ZfFkVp5/png-transparent-levi-039-s-hd-logo-removebg-preview.png",
+      "bannerURLs": [
+        "https://i.ibb.co/xF3RJvK/b5e33b8f97941536b80d4fafe21c1044.jpg",
+        "https://i.ibb.co/Kmm1xRD/458344b3aaab87a6b3dffbcfb61f6f75.png",
+        "https://i.ibb.co/1LMbMs3/1547c457094675-59c8f326d35ec.jpg"
+      ]
+    }
+  ]
