@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../Elements/Footer";
 import Banner from "./Banner";
 import SAbout from "./SAbout";
+import TopRated from "./TopRated";
 
 
 
@@ -11,9 +12,8 @@ const Home = () => {
 
   const allProducts = useLoaderData();
   const brands = allProducts.filter((products) => products.logo);
-  const products = allProducts.filter((products) => products.rating);
+
   console.log(brands);
-  console.log(products);
 
   return (
     <div>
@@ -35,6 +35,7 @@ const Home = () => {
           </div>
         ))}
       </Marquee>
+      <TopRated></TopRated>
       <SAbout></SAbout>
       <Footer></Footer>
     </div>
