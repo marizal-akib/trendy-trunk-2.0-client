@@ -8,6 +8,7 @@ import TopRated from "./TopRated";
 import Section1 from "./Section1";
 import NewsLetter from "./NewsLtter/NewsLetter";
 import Featured from "./Featured/Featured";
+import SecondaryNav from "./SecondaryNav";
 
 
 
@@ -43,6 +44,7 @@ const Home = () => {
       <SAbout></SAbout>
       <Featured></Featured>
       <NewsLetter></NewsLetter>
+      <SecondaryNav></SecondaryNav>
       <Footer></Footer>
     </div>
   );
