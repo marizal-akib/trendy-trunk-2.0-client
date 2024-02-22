@@ -53,7 +53,7 @@ const AuthProviders = ({ children }) => {
       };
 
       // using axios
-      axios.post(" https://trendy-trunk-server-fvsf5ofec-mariz-al-akibs-projects.vercel.app/user", user ) 
+      axios.post("http://localhost:5000/user", user ) 
       .then(data =>{
         console.log(data.data)
         localStorage.removeItem('cart')
@@ -63,7 +63,7 @@ const AuthProviders = ({ children }) => {
 
 
       // // using fetch
-      // fetch(" https://trendy-trunk-server-fvsf5ofec-mariz-al-akibs-projects.vercel.app/user", {
+      // fetch("http://localhost:5000/user", {
       //   method: "POST",
       //   headers: {
       //     "content-type": "application/json",

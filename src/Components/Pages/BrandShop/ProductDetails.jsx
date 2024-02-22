@@ -38,8 +38,8 @@ const handleAddToCart = () => {
       cartProduct: product,
     };
 
-    axios.patch(' https://trendy-trunk-server-fvsf5ofec-mariz-al-akibs-projects.vercel.app/user', cart)
-    // fetch(" https://trendy-trunk-server-fvsf5ofec-mariz-al-akibs-projects.vercel.app/user", {
+    axios.patch('http://localhost:5000/user', cart)
+    // fetch("http://localhost:5000/user", {
     //   method: "PATCH",
     //   headers: {
     //     "content-type": "application/json",

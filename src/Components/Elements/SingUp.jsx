@@ -33,7 +33,7 @@ const SingUp = () => {
       .then((res) => {
         console.log(res.user);
         const user = {email , password};
-        fetch(" https://trendy-trunk-server-fvsf5ofec-mariz-al-akibs-projects.vercel.app/user" ,{
+        fetch("http://localhost:5000/user" ,{
           method: "PUT",
           headers: {
             "content-type": "application/json"

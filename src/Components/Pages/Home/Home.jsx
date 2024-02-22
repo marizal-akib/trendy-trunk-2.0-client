@@ -11,7 +11,9 @@ const Home = () => {
 
   const allProducts = useLoaderData();
   const brands = allProducts.filter((products) => products.logo);
+  const products = allProducts.filter((products) => products.rating);
   console.log(brands);
+  console.log(products);
 
   return (
     <div>

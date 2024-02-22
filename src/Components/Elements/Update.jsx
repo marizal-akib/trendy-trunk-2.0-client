@@ -29,7 +29,7 @@ const Update = () => {
 
     };
 
-    fetch(` https://trendy-trunk-server-fvsf5ofec-mariz-al-akibs-projects.vercel.app/products/${_id}`,{
+    fetch(`http://localhost:5000/products/${_id}`,{
       method:'PUT',
       headers:{
         'content-type': 'application/json'
