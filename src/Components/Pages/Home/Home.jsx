@@ -9,6 +9,7 @@ import Section1 from "./Section1";
 import NewsLetter from "./NewsLtter/NewsLetter";
 import Featured from "./Featured/Featured";
 import SecondaryNav from "./SecondaryNav";
+import About from "./About";
 
 
 
@@ -41,6 +42,7 @@ const Home = () => {
       </Marquee>
       <Section1></Section1>
       <TopRated></TopRated>
+      <About></About>
       <SAbout></SAbout>
       <Featured></Featured>
       <NewsLetter></NewsLetter>
